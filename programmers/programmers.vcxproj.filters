@@ -13,10 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="level1">
+      <UniqueIdentifier>{29a14da3-90c8-48f9-8e40-013d3eeced35}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="programmers.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="level1\C30L118666.h">
+      <Filter>level1</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

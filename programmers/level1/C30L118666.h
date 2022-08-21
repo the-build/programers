@@ -32,9 +32,9 @@ public:
 		table[tempType] += tempScore;
 	}
 
-    std::string solution(std::vector<std::string> survey, std::vector<int> choices) {
-        std::string answer = "";
- 
+	std::string solution(std::vector<std::string> survey, std::vector<int> choices) {
+		std::string answer = "";
+
 		if (survey.size() <= 1000) {	//One of the limitations
 			for (int i = 0; i < survey.size(); i++) {
 				makeScore(survey[i], choices[i]);
