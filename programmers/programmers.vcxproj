@@ -142,7 +142,8 @@
     <ClCompile Include="programmers.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="level1\C30L118666.h" />
+    <ClInclude Include="src\level1.hpp" />
+    <ClInclude Include="src\level2.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

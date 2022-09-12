@@ -1,9 +1,9 @@
 #pragma once
-//level 1, https://school.programmers.co.kr/learn/courses/30/lessons/118666?language=cpp
 #include <iostream>
 #include <string>
 #include <vector>
 #include <map>
+// Quiz =, https://school.programmers.co.kr/learn/courses/30/lessons/118666?language=cpp
 class C30L118666 {
 public:
 	void makeScore(std::string& type, int& score) {
