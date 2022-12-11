@@ -4,7 +4,7 @@
 #include <vector>
 #include <map>
 // Quiz =, https://school.programmers.co.kr/learn/courses/30/lessons/118666?language=cpp
-class C30L118666 {
+class Level1 {
 public:
 	void makeScore(std::string& type, int& score) {
 		if (score == 4)	return;		//It doesn't make any sense.
@@ -32,7 +32,7 @@ public:
 		table[tempType] += tempScore;
 	}
 
-	std::string solution(std::vector<std::string> survey, std::vector<int> choices) {
+	std::string courses_30_lessons_118666(std::vector<std::string> survey, std::vector<int> choices) {
 		std::string answer = "";
 
 		if (survey.size() <= 1000) {	//One of the limitations

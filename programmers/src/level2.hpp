@@ -6,11 +6,11 @@
 using namespace std;
 
 
-// Quiz = https://school.programmers.co.kr/learn/courses/30/lessons/60057
-class C30L60057
+class Level2
 {
 public:
-    int solution(string s) {
+    // Quiz = https://school.programmers.co.kr/learn/courses/30/lessons/60057
+    int courses_30_lessons_60057(string s) {
         int answer = 0;
         int maxCnt = s.length() / 2;
 
@@ -26,12 +26,9 @@ public:
 
         return answer;
     }
-};
 
-// Quiz = https://school.programmers.co.kr/learn/courses/30/lessons/12924
-class C30L12924 {
-public:
-    int solution(int n) {
+    // Quiz = https://school.programmers.co.kr/learn/courses/30/lessons/12924
+    int courses_30_lessons_12924(int n) {
         int answer = 0;
         int x = 0;
 
@@ -52,13 +49,13 @@ public:
         return answer;
     }
 
-	int fibonacci(int m) {
-		int val = 0;
-		for (int i = 1; i < (m + 1); i++) {
-			val += i;
-		}
-		return val;
-	}
+    int fibonacci(int m) {
+        int val = 0;
+        for (int i = 1; i < (m + 1); i++) {
+            val += i;
+        }
+        return val;
+    }
     /*
     정확성  테스트
         테스트 1 〉	통과 (0.01ms, 3.6MB)
@@ -91,6 +88,5 @@ public:
         효율성: 25.0
         합계: 100.0 / 100.0
     */
-
 };
 

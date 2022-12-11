@@ -142,6 +142,7 @@
     <ClCompile Include="programmers.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Level0.h" />
     <ClInclude Include="src\level1.hpp" />
     <ClInclude Include="src\level2.hpp" />
   </ItemGroup>

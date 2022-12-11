@@ -17,17 +17,17 @@ using namespace std;
 #include "src/level2.hpp"  
 #pragma endregion
 
+#include "src/Level0.hpp"
+
 
 int main()
 {
     std::cout << "Hello World!\n";
+    //Level0().courses_30_lessons_120812({1,2,3,3,3,4});
 
-    C30L118666 C30L118666;
-    //C30L118666.solution({ "AN", "CF", "MJ", "RT", "NA" }, { 5, 3, 2, 7, 5 });
+    //Level1().courses_30_lessons_118666({ "AN", "CF", "MJ", "RT", "NA" }, { 5, 3, 2, 7, 5 });
 
-    C30L60057 C30L60057;
-    //C30L60057.solution("aabbaccc");
+    //Level2().courses_30_lessons_60057("aabbaccc");
 
-    C30L12924 C30L12924;
-    C30L12924.solution(15);
+    //Level2().courses_30_lessons_12924(15);
 }
