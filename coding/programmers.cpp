@@ -24,10 +24,15 @@ int main()
 {
     std::cout << "Hello World!\n";
     //Level0().courses_30_lessons_120812({1,2,3,3,3,4});
+    Level0().courses_30_lessons_120808(1, 2, 3, 4);
 
     //Level1().courses_30_lessons_118666({ "AN", "CF", "MJ", "RT", "NA" }, { 5, 3, 2, 7, 5 });
 
     //Level2().courses_30_lessons_60057("aabbaccc");
 
     //Level2().courses_30_lessons_12924(15);
+
+
+    Level1().courses_30_lessons_178871({ "mumu", "soe", "poe", "kai", "mine" }, { "kai", "kai", "mine", "mine" });
+    
 }

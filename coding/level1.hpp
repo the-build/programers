@@ -49,6 +49,12 @@ public:
 		std::cout << "Answer: " << answer << std::endl;
         return answer;
     }
+
+	std::vector<string> courses_30_lessons_178871(std::vector<string> players, std::vector<string> callings) {
+		vector<string> answer;
+
+		return answer;
+	}
 private:
     std::map<std::string, int> table;
 };
